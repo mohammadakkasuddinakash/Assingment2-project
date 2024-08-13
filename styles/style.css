@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Grey+Qo&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+/* *{
+    color: aliceblue;
+} */
+/* Nav styles */
+.nav-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    
+}
+.nav-main h1{
+    font-size: 30px;
+    color:rgb(230, 83, 60)
+}
+
+.nav-right button{
+    background-color: transparent;
+    border: none;
+    font-size: 15px;
+    margin: 7px;
+    color: white;
+}
+.nav-right{
+    border-radius: 30px;
+   border: 1px solid rgba(143, 137, 137, 0.1);
+  
+}
+#nav-btn-1{
+    border-radius: 30px;
+    background-color:rgb(230, 83, 60);
+    padding:5px ;
+}
+
+.nav-hamburger-menu{
+    display: none;
+}
+
+/* Header section */
+.header-section{
+   
+    background-color:rgb(29, 26, 26)
+    
+}
+
+/* Banner style */
+
+.banner-main{
+    margin: 0 auto;
+    display: flex;
+    flex-direction:row;
+    /* justify-content: space-between; */
+    align-items: center;
+    max-width: 800px;
+    max-height: auto;
+    gap: 20px;
+}
+.banner-left{
+    width: 50%;
+    
+}
+
+.banner-left h1{
+    font-size: 45px;
+    color: white;
+}
+.shape{
+    font-family: "Allura", cursive;
+    font-size: 60px;
+}
+
+.banner-left p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.banner-btn-first{
+    border-radius: 30px;
+    background: rgb(230, 83, 60);
+    margin: 7px;
+    padding: 10px;
+    font-size: 12px;
+    border: none;
+    
+
+}
+.banner-btn-second{
+    border-radius: 30px;
+    background: rgb(30, 26, 26);
+    margin: 7px;
+    padding: 10px;
+    font-size: 12px;
+    border: 1px solid white;
+    color: aliceblue;
+    
+
+}
+
+.banner-right{
+    position: relative;
+    /* left: 50px; */
+    bottom: 10px;
+   
+   width: 50%;
+
+}
+.banner-right img{
+    /* width: 100%; */
+    width: 80%;
+    height: auto;
+    
+}
+
+ .token-350{
+    width: 35%;
+    height: auto;
+    padding:  7px 0px 7px 12px;
+    border-radius: 22px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(6px);
+    background: rgba(48, 48, 48, 0.54);
+
+ }
+ .token-350 h1{
+    padding: 0;
+    margin: 0;
+    color: white;
+    
+ }
+ .token-350 p{
+    color: rgba(255, 255, 255, 0.65);
+    padding: 0;
+    margin: 0;
+ }
+
+.token-350{
+    display: grid;
+    position: absolute;
+    right: 57%;
+    bottom: 12%;
+
+}
+
+.token-350{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.play-btn-spa{
+    font-size: 25px;
+    margin: 0;
+    padding:0;
+}
+.token-500{
+    width: 38%;
+    height: auto;
+    padding:  7px 0px 7px 12px;
+    border-radius: 22px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(6px);
+    background: rgba(48, 48, 48, 0.54);
+
+ }
+
+ .token-500 h1,p{
+    color: white;
+    padding: 0;
+    margin: 0;
+
+}
+.token-500 p{
+    color: rgba(255, 255, 255, 0.65);
+}
+.token-500{
+    display: grid;
+    position: absolute;
+    right: 7%;
+    bottom: 55%;
+
+}
+
+/* Habit Section */
+
+.habit-container{
+    /* max-width: 800px; */
+    margin: 0 auto;
+    padding: 20px 0;
+    background-color: black;
+}
+.habit-content{
+    max-width: 800px;
+    margin: 0 auto;
+}
+.card-title{
+    text-align: center;
+    
+}
+.card-title h1{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    padding-top: 15px;
+}
+.card-title p{
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.65);
+    padding-bottom: 20px;
+}
+
+
+.habit-card img{
+    width: 100%;
+    clip-path: circle();
+    /* border-radius: 100%; */
+}
+
+/* card */
+
+.havit-cards{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.habit-card{
+    margin: 0;
+    padding: 5px;
+    width: 20%;
+}
+.habit-card h1{
+    font-size: 18px;
+    color: aliceblue;
+    padding: 7px 0;
+    margin: 0;
+}
+.habit-card p{
+    color: rgba(255, 255, 255, 0.65);
+}
+
+/* run container */
+
+.run-container{
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+
+}
+.run-left{
+    width: 50%;
+    padding: 10px;
+
+}
+.run-left h1{
+    font-size: 37px;
+    color: aliceblue;
+    padding: 10px 0;
+    margin:0;
+}
+.run-left p{
+    /* font-size: px; */
+    color: rgba(255, 255, 255, 0.65);
+    padding-bottom: 10px;
+}
+.run-left button{
+    padding: 10px 35px;
+    border-radius: 18px;
+    margin: 0%;
+    border: none;
+    background-color: rgb(230, 83, 60);
+}
+.run-right{
+    width: 50%;
+
+}
+.run-container img{
+    width: 100%;
+    border-radius: 15px;
+    color: aliceblue;
+}
+
+

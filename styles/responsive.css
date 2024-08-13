@@ -1,0 +1,63 @@
+@media screen and (max-width:576px){
+    .nav-main{
+        width: 90%;
+    }
+    .nav-hamburger-menu{
+        display: block;
+    }
+    .nav-right{
+        display: none;
+    }
+    
+    .banner-main{
+        display: grid;
+    
+    }
+    .banner-left{
+        width: 100%;
+        text-align: center;
+    }
+    /* .banner-right{
+        width: 100%;
+    } */
+    .banner-right{
+        width: 100%;
+        bottom: 10px;
+       border: 1px solid rgb(30, 49, 2);
+       /* text-align: center; */
+    }
+
+    /* habit-container */
+
+    /* .habit-container{
+        width:100%;
+    } */
+
+    .habit-content{
+        width: 90%;
+    }
+
+    .havit-cards{
+        display: grid;
+        gap: 30px;
+
+    }
+    .habit-card{
+        width: 100%;
+    }
+
+    .run-container{
+        width: 90%;
+        margin: 0 auto;
+        display:grid;
+        gap: 13px;
+    }
+    .run-left{
+        width: 100%;
+        
+    }
+    .run-right{
+        width: 100%;
+        
+    }
+}
