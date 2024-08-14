@@ -1,6 +1,6 @@
 @media screen and (max-width:576px){
     .nav-main{
-        width: 90%;
+        width: 85%;
     }
     .nav-hamburger-menu{
         display: block;
@@ -11,10 +11,11 @@
     
     .banner-main{
         display: grid;
+        width: 95%;
     
     }
     .banner-left{
-        width: 100%;
+        width: 90%;
         text-align: center;
     }
     /* .banner-right{
@@ -60,4 +61,85 @@
         width: 100%;
         
     }
+
+    .calculator-div{
+        display: block;
+        unicode-bidi: isolate;
+        
+    }
+    .bmi-left{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .bmi-right{
+        width: 90%;
+        margin: 0 auto;
+        padding: 0%;
+    }
+
+    /* trainer-container  section*/
+    .trainer-container{
+        
+    }
+    .cards-container{
+        max-width: 70%;
+        margin: 0 auto;
+        display:flex;
+        flex-direction: column;
+    }
+    .card{
+        max-width: 100%;
+    }
+    .card-bottom-1{
+        /* display: block; */
+        position: relative;
+        right: 10%;
+        bottom: 60px;
+    }
+    .card-bottom-2{
+        position: relative;
+        right: 7%;
+        bottom: 60px;
+    }
+    .card-bottom-3{
+        position: relative;
+        right: 5%;
+        bottom: 60px;
+    }
+    .card-bottom-4{
+        position: relative;
+        right: 10%;
+        bottom: 60px;
+    }
+    .card-bottom-5{
+        position: relative;
+        right: 10%;
+        bottom: 60px;
+    }
+    .card-bottom-6{
+        position: relative;
+        right: 5%;
+        bottom: 60px;
+    }
+
+    /* footer-section */
+
+    .foot-main{
+        /* align-items: center; */
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+        /* border: 2px solid gold; */
+    
+    }
+    .foot-left{
+        width: 90%;
+    }
+    .foot-mid{
+        width: 90%;
+    }
+    .foot-right{
+        width: 90%;
+    }
+
 }
