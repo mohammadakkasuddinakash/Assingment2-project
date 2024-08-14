@@ -30,10 +30,6 @@
 
     /* habit-container */
 
-    /* .habit-container{
-        width:100%;
-    } */
-
     .habit-content{
         width: 90%;
     }
@@ -78,6 +74,7 @@
     }
 
     /* trainer-container  section*/
+
     .trainer-container{
         
     }
@@ -122,6 +119,26 @@
         bottom: 60px;
     }
 
+        /*contract-section */
+    
+        .contract-main{
+            flex-direction: column;
+            width: 60%;
+            gap: 30px;
+            
+        
+        }
+        .contract-left{
+            width: 80%;
+            
+        
+        }
+        .contract-right{
+            width: 80%;
+            
+        
+        }
+
     /* footer-section */
 
     .foot-main{
@@ -139,7 +156,9 @@
         width: 90%;
     }
     .foot-right{
-        width: 90%;
+        width: 100%;
     }
+
+
 
 }
